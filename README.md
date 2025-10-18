@@ -1,14 +1,14 @@
----
 
-```
-# 🏢 Companies Directory  
 
-[![GitHub Stars](https://img.shields.io/github/stars/muchurammahesh/companies-directory?style=flat&logo=github)](https://github.com/muchurammahesh/companies-directory/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/muchurammahesh/companies-directory?style=flat&logo=github)](https://github.com/muchurammahesh/companies-directory/network/members)
+```markdown
+# Companies Directory 🏢  
 
-A **React + Vite** web app to explore **companies by industry and location**, with search, filters, favorites, and detailed company views.
+[![GitHub Stars](https://img.shields.io/github/stars/muchurammahesh/companies-directory?style=flat&logo=github)](https://github.com/muchurammahesh/companies-directory/stargazers)  
+[![GitHub Forks](https://img.shields.io/github/forks/muchurammahesh/companies-directory?style=flat&logo=github)](https://github.com/muchurammahesh/companies-directory/network/members)  
 
-![App Screenshot](https://github.com/user-attachments/assets/cc4a755b-fe5b-4db5-96f9-4605425eccfc)
+A **React + Vite** web app to explore **companies by industry and location** with search, filters, favorites, and detailed company views.  
+
+![App Screenshot] <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/cc4a755b-fe5b-4db5-96f9-4605425eccfc" />  
 
 🌐 [**Live Demo**](https://companies-directory-app.netlify.app)  
 
@@ -49,22 +49,21 @@ companies-directory/
 ├── public/
 │   └── vite.svg
 ├── src/
-│   ├── tests/                     # Test files
+│   ├── *tests*/                # Test files
 │   │   ├── CompanyCard.test.jsx
 │   │   ├── CompanyDetails.test.jsx
 │   │   └── CompaniesList.test.jsx
 │   │
 │   ├── api/
-│   │   └── companies.js           # Mock API data for companies
+│   │   └── companies.js         # API calls
 │   │
 │   ├── assets/
 │   │   └── react.svg
 │   │
-│   ├── components/                # Reusable UI components
+│   ├── components/              # Reusable UI components
 │   │   ├── ui/
 │   │   │   ├── Badge.jsx
 │   │   │   ├── Button.jsx
-│   │   │   ├── Input.jsx
 │   │   │   └── index.js
 │   │   │
 │   │   ├── EmptyState.jsx
@@ -80,7 +79,7 @@ companies-directory/
 │   │   └── CompaniesProvider.jsx
 │   │
 │   ├── hooks/
-│   │   └── useDebounce.jsx
+│   │   └── useDebounce.js
 │   │
 │   ├── lib/
 │   │   └── utils.js
@@ -91,7 +90,7 @@ companies-directory/
 │   │
 │   ├── App.jsx
 │   ├── index.css
-│   ├── main.jsx
+│   ├── main.js
 │   └── setupTests.js
 │
 ├── .gitignore
@@ -143,9 +142,9 @@ This project uses **Vitest** with **React Testing Library**.
 npm run test
 ```
 
-**Coverage includes:**
+Coverage includes:
 
-* Rendering & filtering list by industry and location
+* Rendering & filtering list by **industry & location**
 * Favorites toggle & persistence
 * Company details modal rendering
 
@@ -154,40 +153,42 @@ npm run test
 ## 🌍 Deployment
 
 The project is deployed on **Netlify**:
-🔗 [**Live App**](https://companies-directory-app.netlify.app)
+🔗 [Live App](https://companies-directory-app.netlify.app/)
 
 ---
 
 ## 📌 GitHub Repository
 
-🔗 [**companies-directory (GitHub)**](https://github.com/muchurammahesh/companies-directory)
+🔗 [companies-directory (GitHub)](https://github.com/muchurammahesh/companies-directory)
 
 ---
 
 ## 📖 Assignment Context
 
-This project was built as part of the **Frontlines Media React Assignment**, focusing on:
+This project was built as part of the *Frontlines Media React Assignment*, focusing on:
 
-* Component-driven architecture
-* Mock API integration with dynamic company data
-* State & data handling with Context API
+* Component-driven design
+* API integration with company data
+* State & data handling
 * Accessibility & responsiveness
-* Testing using Vitest and React Testing Library
+* Testing with Vitest
 
 ---
 
 ## 👤 Author
 
 **Muchuram Mahesh**
-📧 [maheshmuchuram40@gmail.com](mailto:maheshmuchuram40@gmail.com)
-🌐 [Live Demo](https://companies-directory-app.netlify.app)
-💻 [GitHub](https://github.com/muchurammahesh/companies-directory)
 
----
+📧 [[maheshmuchuram40@gmail.com](mailto:maheshmuchuram40@gmail.com)]
+
+🌐 [Live Demo](https://companies-directory-app.netlify.app/)
+💻 [GitHub](https://github.com/muchurammahesh/companies-directory)
 
 ```
 
 ---
 
-I can add that neatly if you’re planning to upload this to GitHub.
+
+
+Do you also want me to add a **side-by-side comparison table (SpaceX vs Companies Directory)** at the bottom? That could make it look even more professional and modular.
 ```
