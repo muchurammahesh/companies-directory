@@ -1,8 +1,3 @@
-
-
----
-
-```markdown
 # 🏢 Companies Directory  
 
 [![GitHub Stars](https://img.shields.io/github/stars/muchurammahesh/companies-directory?style=flat&logo=github)](https://github.com/muchurammahesh/companies-directory/stargazers)
@@ -44,6 +39,8 @@ A **React + Vite** web app to explore **companies by industry and location** wit
 ---
 
 ## 📂 Project Structure  
+
+  
 
 ```
 
@@ -192,7 +189,4 @@ This project was built as part of the **Frontlines Media React Assignment**, foc
 
 ```
 
----
 
-
-```
