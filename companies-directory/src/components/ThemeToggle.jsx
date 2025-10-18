@@ -1,0 +1,33 @@
+
+// src/components/ThemeToggle.jsx
+import React, { useEffect, useState } from "react";
+
+export default function ThemeToggle() {
+  const [dark, setDark] = useState(() => {
+    try {
+      const saved = localStorage.getItem("theme");
+      if (saved) return saved === "dark";
+      return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    } catch {
+      return false;
+    }
+  });
+
+  useEffect(() => {
+    const root = document.documentElement;
+    if (dark) {
+      root.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    } else {
+      root.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    }
+  }, [dark]);
+
+  return (
+    <button onClick={() => setDark((d) => !d)} className="px-3 py-2 rounded bg-gray-100 dark:bg-gray-800">
+      {dark ? "🌙" : "🌞"}
+    </button>
+  );
+}
+
