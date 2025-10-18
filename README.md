@@ -1,13 +1,14 @@
-# Companies Directory 🏢  
+---
+
+```
+# 🏢 Companies Directory  
 
 [![GitHub Stars](https://img.shields.io/github/stars/muchurammahesh/companies-directory?style=flat&logo=github)](https://github.com/muchurammahesh/companies-directory/stargazers)
-
 [![GitHub Forks](https://img.shields.io/github/forks/muchurammahesh/companies-directory?style=flat&logo=github)](https://github.com/muchurammahesh/companies-directory/network/members)
 
-A **React + Vite** web app to explore **companies by industry and location** with search, filters, favorites, and detailed company views.  
+A **React + Vite** web app to explore **companies by industry and location**, with search, filters, favorites, and detailed company views.
 
-![App Screenshot] <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/cc4a755b-fe5b-4db5-96f9-4605425eccfc" />
-
+![App Screenshot](https://github.com/user-attachments/assets/cc4a755b-fe5b-4db5-96f9-4605425eccfc)
 
 🌐 [**Live Demo**](https://companies-directory-app.netlify.app)  
 
@@ -38,57 +39,59 @@ A **React + Vite** web app to explore **companies by industry and location** wit
 | ☁️ Netlify | <img src="https://img.shields.io/badge/Netlify-00C7B7?logo=netlify&logoColor=white" alt="Netlify" /> |
 
 ---
+
 ## 📂 Project Structure  
 
 ```
 
-spacex-mission-explorer/
+companies-directory/
 ├── node_modules/
 ├── public/
 │   └── vite.svg
 ├── src/
-│   ├── _tests_/                # Test files
-│   │   ├── LaunchCard.test.jsx
-│   │   ├── LaunchDetails.test.jsx
-│   │   └── LaunchesList.test.jsx 
+│   ├── tests/                     # Test files
+│   │   ├── CompanyCard.test.jsx
+│   │   ├── CompanyDetails.test.jsx
+│   │   └── CompaniesList.test.jsx
 │   │
 │   ├── api/
-│   │   └── spacex.js             # API calls
+│   │   └── companies.js           # Mock API data for companies
 │   │
 │   ├── assets/
 │   │   └── react.svg
 │   │
-│   ├── components/               # Reusable UI components
+│   ├── components/                # Reusable UI components
 │   │   ├── ui/
 │   │   │   ├── Badge.jsx
 │   │   │   ├── Button.jsx
+│   │   │   ├── Input.jsx
 │   │   │   └── index.js
 │   │   │
 │   │   ├── EmptyState.jsx
 │   │   ├── FavoriteButton.jsx
 │   │   ├── FilterBar.jsx
-│   │   ├── LaunchCard.jsx
+│   │   ├── CompanyCard.jsx
 │   │   ├── LoadingSkeleton.jsx
 │   │   ├── Navbar.jsx
 │   │   ├── Pagination.jsx
 │   │   └── ThemeToggle.jsx
 │   │
 │   ├── context/
-│   │   └── LaunchesProvider.jsx
+│   │   └── CompaniesProvider.jsx
 │   │
 │   ├── hooks/
-│   │   └── useDebounce.js
+│   │   └── useDebounce.jsx
 │   │
 │   ├── lib/
 │   │   └── utils.js
 │   │
 │   ├── pages/
-│   │   ├── LaunchDetails.jsx
-│   │   └── LaunchesList.jsx
+│   │   ├── CompanyDetails.jsx
+│   │   └── CompaniesList.jsx
 │   │
 │   ├── App.jsx
 │   ├── index.css
-│   ├── main.js
+│   ├── main.jsx
 │   └── setupTests.js
 │
 ├── .gitignore
@@ -104,6 +107,7 @@ spacex-mission-explorer/
 └── vite.config.mjs
 
 ````
+
 ---
 
 ## ⚡ Getting Started  
@@ -127,51 +131,63 @@ npm run build
 
 # 6️⃣ Preview build locally
 npm run preview
-✅ Testing
-This project uses Vitest with React Testing Library.
+````
 
-bash
-Copy code
-npm run test
-Coverage includes:
-
-Rendering & filtering list by industry & location
-
-Favorites toggle & persistence
-
-Company details modal rendering
 ---
+
+## ✅ Testing
+
+This project uses **Vitest** with **React Testing Library**.
+
+```bash
+npm run test
+```
+
+**Coverage includes:**
+
+* Rendering & filtering list by industry and location
+* Favorites toggle & persistence
+* Company details modal rendering
+
+---
+
 ## 🌍 Deployment
 
 The project is deployed on **Netlify**:
-🔗 [Live App](https://companies-directory-app.netlify.app/)
+🔗 [**Live App**](https://companies-directory-app.netlify.app)
 
 ---
 
 ## 📌 GitHub Repository
 
-🔗 [spacex-mission-explorer (GitHub)](https://github.com/muchurammahesh/companies-directory.git)
+🔗 [**companies-directory (GitHub)**](https://github.com/muchurammahesh/companies-directory)
 
 ---
-📖 Assignment Context
-This project was built as part of a Frontlines Media React Assignment, focusing on:
 
-Component-driven design
+## 📖 Assignment Context
 
-API integration with company data
+This project was built as part of the **Frontlines Media React Assignment**, focusing on:
 
-State & data handling
+* Component-driven architecture
+* Mock API integration with dynamic company data
+* State & data handling with Context API
+* Accessibility & responsiveness
+* Testing using Vitest and React Testing Library
 
-Accessibility & responsiveness
+---
 
-Testing with Vitest
 ## 👤 Author
 
 **Muchuram Mahesh**
+📧 [maheshmuchuram40@gmail.com](mailto:maheshmuchuram40@gmail.com)
+🌐 [Live Demo](https://companies-directory-app.netlify.app)
+💻 [GitHub](https://github.com/muchurammahesh/companies-directory)
 
-📧 [maheshmuchuram40@gmail.com]  
+---
 
-🌐 [Live Demo](https://companies-directory-app.netlify.app/)
+```
 
-💻 [GitHub](https://github.com/muchurammahesh/companies-directory.git)
+---
 
+I can add that neatly if you’re planning to upload this to GitHub.
+```
