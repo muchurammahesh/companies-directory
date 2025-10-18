@@ -1,14 +1,24 @@
+Got it ✅ — you want the **full README.md source code** for your **Companies Directory** project — in **ready-to-copy Markdown format**, including:
 
+* ✅ Proper clickable **GitHub** and **Live Demo** links
+* ✅ Full project structure
+* ✅ Code blocks that render correctly in GitHub
+* ✅ All formatting (badges, emojis, code fences, etc.) preserved
+
+Here’s the **direct copy-ready full source** 👇
+(just copy-paste this into your `README.md` — everything will render perfectly on GitHub or any Markdown viewer)
+
+---
 
 ```markdown
-# Companies Directory 🏢  
+# 🏢 Companies Directory  
 
-[![GitHub Stars](https://img.shields.io/github/stars/muchurammahesh/companies-directory?style=flat&logo=github)](https://github.com/muchurammahesh/companies-directory/stargazers)  
-[![GitHub Forks](https://img.shields.io/github/forks/muchurammahesh/companies-directory?style=flat&logo=github)](https://github.com/muchurammahesh/companies-directory/network/members)  
+[![GitHub Stars](https://img.shields.io/github/stars/muchurammahesh/companies-directory?style=flat&logo=github)](https://github.com/muchurammahesh/companies-directory/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/muchurammahesh/companies-directory?style=flat&logo=github)](https://github.com/muchurammahesh/companies-directory/network/members)
 
-A **React + Vite** web app to explore **companies by industry and location** with search, filters, favorites, and detailed company views.  
+A **React + Vite** web app to explore **companies by industry and location**, with search, filters, favorites, and detailed company views.
 
-![App Screenshot] <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/cc4a755b-fe5b-4db5-96f9-4605425eccfc" />  
+![App Screenshot](https://github.com/user-attachments/assets/cc4a755b-fe5b-4db5-96f9-4605425eccfc)
 
 🌐 [**Live Demo**](https://companies-directory-app.netlify.app)  
 
@@ -49,21 +59,22 @@ companies-directory/
 ├── public/
 │   └── vite.svg
 ├── src/
-│   ├── *tests*/                # Test files
+│   ├── tests/                     # Test files
 │   │   ├── CompanyCard.test.jsx
 │   │   ├── CompanyDetails.test.jsx
 │   │   └── CompaniesList.test.jsx
 │   │
 │   ├── api/
-│   │   └── companies.js         # API calls
+│   │   └── companies.js           # Mock API data for companies
 │   │
 │   ├── assets/
 │   │   └── react.svg
 │   │
-│   ├── components/              # Reusable UI components
+│   ├── components/                # Reusable UI components
 │   │   ├── ui/
 │   │   │   ├── Badge.jsx
 │   │   │   ├── Button.jsx
+│   │   │   ├── Input.jsx
 │   │   │   └── index.js
 │   │   │
 │   │   ├── EmptyState.jsx
@@ -79,7 +90,7 @@ companies-directory/
 │   │   └── CompaniesProvider.jsx
 │   │
 │   ├── hooks/
-│   │   └── useDebounce.js
+│   │   └── useDebounce.jsx
 │   │
 │   ├── lib/
 │   │   └── utils.js
@@ -90,7 +101,7 @@ companies-directory/
 │   │
 │   ├── App.jsx
 │   ├── index.css
-│   ├── main.js
+│   ├── main.jsx
 │   └── setupTests.js
 │
 ├── .gitignore
@@ -142,9 +153,9 @@ This project uses **Vitest** with **React Testing Library**.
 npm run test
 ```
 
-Coverage includes:
+**Coverage includes:**
 
-* Rendering & filtering list by **industry & location**
+* Rendering & filtering list by industry and location
 * Favorites toggle & persistence
 * Company details modal rendering
 
@@ -153,42 +164,41 @@ Coverage includes:
 ## 🌍 Deployment
 
 The project is deployed on **Netlify**:
-🔗 [Live App](https://companies-directory-app.netlify.app/)
+🔗 [**Live App**](https://companies-directory-app.netlify.app)
 
 ---
 
 ## 📌 GitHub Repository
 
-🔗 [companies-directory (GitHub)](https://github.com/muchurammahesh/companies-directory)
+🔗 [**companies-directory (GitHub)**](https://github.com/muchurammahesh/companies-directory)
 
 ---
 
 ## 📖 Assignment Context
 
-This project was built as part of the *Frontlines Media React Assignment*, focusing on:
+This project was built as part of the **Frontlines Media React Assignment**, focusing on:
 
-* Component-driven design
-* API integration with company data
-* State & data handling
+* Component-driven architecture
+* Mock API integration with dynamic company data
+* State & data handling with Context API
 * Accessibility & responsiveness
-* Testing with Vitest
+* Testing using Vitest and React Testing Library
 
 ---
 
 ## 👤 Author
 
 **Muchuram Mahesh**
-
-📧 [[maheshmuchuram40@gmail.com](mailto:maheshmuchuram40@gmail.com)]
-
-🌐 [Live Demo](https://companies-directory-app.netlify.app/)
+📧 [maheshmuchuram40@gmail.com](mailto:maheshmuchuram40@gmail.com)
+🌐 [Live Demo](https://companies-directory-app.netlify.app)
 💻 [GitHub](https://github.com/muchurammahesh/companies-directory)
+
+---
 
 ```
 
 ---
 
-
-
-Do you also want me to add a **side-by-side comparison table (SpaceX vs Companies Directory)** at the bottom? That could make it look even more professional and modular.
+Would you like me to include a **badges section for License, Build, and Issues** too (like open issues, PRs, MIT license badge, etc.) at the top?  
+I can add that neatly if you’re planning to upload this to GitHub.
 ```
