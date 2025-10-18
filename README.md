@@ -140,7 +140,7 @@ Rendering & filtering list by industry & location
 Favorites toggle & persistence
 
 Company details modal rendering
-
+---
 ## 🌍 Deployment
 
 The project is deployed on **Netlify**:
@@ -152,7 +152,7 @@ The project is deployed on **Netlify**:
 
 🔗 [spacex-mission-explorer (GitHub)](https://github.com/muchurammahesh/companies-directory.git)
 
-
+---
 📖 Assignment Context
 This project was built as part of a Frontlines Media React Assignment, focusing on:
 
@@ -175,6 +175,3 @@ Testing with Vitest
 
 💻 [GitHub](https://github.com/muchurammahesh/companies-directory.git)
 
-
-pgsql
-Copy code
