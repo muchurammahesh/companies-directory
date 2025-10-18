@@ -50,7 +50,7 @@ companies-directory/
 │   └── vite.svg
 ├── src/
 │   ├── *tests*/                # Test files
-│   │   ├── CompanyCard.test.jsx
+│   │   ├── Navbar.test.jsx
 │   │   
 │   │
 │   ├── api/
@@ -69,14 +69,14 @@ companies-directory/
 │   │   ├── EmptyState.jsx
 │   │   ├── FavoriteButton.jsx
 │   │   ├── FilterBar.jsx
-│   │   ├── CompanyCard.jsx
+│   │   ├── LaunchCard.jsx
 │   │   ├── LoadingSkeleton.jsx
 │   │   ├── Navbar.jsx
 │   │   ├── Pagination.jsx
 │   │   └── ThemeToggle.jsx
 │   │
 │   ├── context/
-│   │   └── CompaniesProvider.jsx
+│   │   └── LaunchesProvider.jsx
 │   │
 │   ├── hooks/
 │   │   └── useDebounce.jsx
@@ -85,8 +85,8 @@ companies-directory/
 │   │   └── utils.js
 │   │
 │   ├── pages/
-│   │   ├── CompanyDetails.jsx
-│   │   └── CompaniesList.jsx
+│   │   ├── LaunchDetails.jsx
+│   │   └── LaunchesList.jsx
 │   │
 │   ├── App.jsx
 │   ├── index.css
