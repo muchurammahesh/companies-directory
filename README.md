@@ -1,12 +1,4 @@
-Got it ✅ — you want the **full README.md source code** for your **Companies Directory** project — in **ready-to-copy Markdown format**, including:
 
-* ✅ Proper clickable **GitHub** and **Live Demo** links
-* ✅ Full project structure
-* ✅ Code blocks that render correctly in GitHub
-* ✅ All formatting (badges, emojis, code fences, etc.) preserved
-
-Here’s the **direct copy-ready full source** 👇
-(just copy-paste this into your `README.md` — everything will render perfectly on GitHub or any Markdown viewer)
 
 ---
 
@@ -16,9 +8,10 @@ Here’s the **direct copy-ready full source** 👇
 [![GitHub Stars](https://img.shields.io/github/stars/muchurammahesh/companies-directory?style=flat&logo=github)](https://github.com/muchurammahesh/companies-directory/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/muchurammahesh/companies-directory?style=flat&logo=github)](https://github.com/muchurammahesh/companies-directory/network/members)
 
-A **React + Vite** web app to explore **companies by industry and location**, with search, filters, favorites, and detailed company views.
+A **React + Vite** web app to explore **companies by industry and location** with search, filters, favorites, and detailed company views.  
 
-![App Screenshot](https://github.com/user-attachments/assets/cc4a755b-fe5b-4db5-96f9-4605425eccfc)
+![App Screenshot] <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/cc4a755b-fe5b-4db5-96f9-4605425eccfc" />
+
 
 🌐 [**Live Demo**](https://companies-directory-app.netlify.app)  
 
@@ -59,18 +52,17 @@ companies-directory/
 ├── public/
 │   └── vite.svg
 ├── src/
-│   ├── tests/                     # Test files
+│   ├── *tests*/                # Test files
 │   │   ├── CompanyCard.test.jsx
-│   │   ├── CompanyDetails.test.jsx
-│   │   └── CompaniesList.test.jsx
+│   │   
 │   │
 │   ├── api/
-│   │   └── companies.js           # Mock API data for companies
+│   │   └── companies.js         # Mock API data for companies
 │   │
 │   ├── assets/
 │   │   └── react.svg
 │   │
-│   ├── components/                # Reusable UI components
+│   ├── components/              # Reusable UI components
 │   │   ├── ui/
 │   │   │   ├── Badge.jsx
 │   │   │   ├── Button.jsx
@@ -178,7 +170,7 @@ The project is deployed on **Netlify**:
 
 This project was built as part of the **Frontlines Media React Assignment**, focusing on:
 
-* Component-driven architecture
+* Component-driven design
 * Mock API integration with dynamic company data
 * State & data handling with Context API
 * Accessibility & responsiveness
@@ -189,8 +181,11 @@ This project was built as part of the **Frontlines Media React Assignment**, foc
 ## 👤 Author
 
 **Muchuram Mahesh**
+
 📧 [maheshmuchuram40@gmail.com](mailto:maheshmuchuram40@gmail.com)
+
 🌐 [Live Demo](https://companies-directory-app.netlify.app)
+
 💻 [GitHub](https://github.com/muchurammahesh/companies-directory)
 
 ---
@@ -199,6 +194,5 @@ This project was built as part of the **Frontlines Media React Assignment**, foc
 
 ---
 
-Would you like me to include a **badges section for License, Build, and Issues** too (like open issues, PRs, MIT license badge, etc.) at the top?  
-I can add that neatly if you’re planning to upload this to GitHub.
+
 ```
